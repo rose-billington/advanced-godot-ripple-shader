@@ -150,7 +150,9 @@ environment = SubResource("Environment_qijwg")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1847138631]
 transform = Transform3D(-0.85326225, 0.49749434, 0.15634231, 0.023706555, -0.262489, 0.9646441, 0.52094287, 0.8268002, 0.2121782, 0, 0, 0)
+visible = false
 light_color = Color(0.92902505, 0.83242726, 0.6366779, 1)
+light_specular = 0.178
 shadow_enabled = true
 
 [node name="Player" type="RigidBody3D" parent="." unique_id=2132808980]
@@ -175,7 +177,7 @@ spring_length = 3.0
 current = true
 
 [node name="Water Mesh" type="MeshInstance3D" parent="." unique_id=346417304]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.674073, 5.6320577, -11.159427)
+transform = Transform3D(10, 0, 0, 0, 1, 0, 0, 0, 10, 9.674073, 5.6320577, -11.159427)
 mesh = SubResource("ArrayMesh_j38dg")
 surface_material_override/0 = ExtResource("2_nb2vx")
 script = ExtResource("3_ocean")
@@ -298,3 +300,11 @@ layer = 10
 offset_left = 8.0
 offset_top = 8.0
 script = ExtResource("fps_script")
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="." unique_id=1401824939]
+transform = Transform3D(-0.8532624, 0.49749422, 0.15634243, 0.50841653, 0.8603079, 0.037191343, -0.11600013, 0.11122105, -0.98700243, 0, 0, 0)
+light_color = Color(0.95811623, 0.7352796, 0.5748522, 1)
+light_energy = 1.835
+light_angular_distance = 1.44
+light_specular = 0.062
+shadow_enabled = true
