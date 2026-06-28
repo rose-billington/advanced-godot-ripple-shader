@@ -1,0 +1,50 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dtnq8dw3dxtia"]
+
+[ext_resource type="Shader" uid="uid://dppmh6xfbum7" path="res://Shaders/water shader 2.gdshader" id="1_ql3mw"]
+
+[resource]
+render_priority = 1
+shader = ExtResource("1_ql3mw")
+shader_parameter/color_shallow = Color(0.08, 0.18, 0.22, 0.6)
+shader_parameter/color_deep = Color(0.01, 0.04, 0.08, 1)
+shader_parameter/color_foam = Color(0.85, 0.88, 0.9, 0.8)
+shader_parameter/color_ripple = Color(0.067, 0.082, 0.106, 0.212)
+shader_parameter/wave_scale = 5.90000008046648
+shader_parameter/wave_speed = 2.72999993897904
+shader_parameter/water_world_scale = 0.10000000149012
+shader_parameter/noise_seed = 100.0
+shader_parameter/chop_scale = 0.00999999977648
+shader_parameter/chop_drift = 0.015
+shader_parameter/chop_contrast = 0.70000001043084
+shader_parameter/chop_max = 0.20000000298024
+shader_parameter/normal_strength = 0.10000000149012
+shader_parameter/wave_height = 0.36999999172976
+shader_parameter/wave_frequency = 1.0
+shader_parameter/wave_time_scale = 1.999999955296
+shader_parameter/trail_pos = PackedVector3Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+shader_parameter/trail_age = PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+shader_parameter/trail_dir = PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+shader_parameter/trail_fade = PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+shader_parameter/trail_count = 20
+shader_parameter/player_radius = 0.5000000074506
+shader_parameter/ripple_freq = 8.0
+shader_parameter/ripple_speed = 8.0000001192096
+shader_parameter/ripple_radius = 14.0
+shader_parameter/ripple_decay = 4.0
+shader_parameter/event_speed = 1.2
+shader_parameter/event_radius = 6.0
+shader_parameter/ripple_str = 0.5000000074506
+shader_parameter/foam_distance = 0.45000000670554
+shader_parameter/foam_strength = 1.0
+shader_parameter/depth_density = 2.0
+shader_parameter/depth_strength = 1.0
+shader_parameter/beers_law = 4.0
+shader_parameter/water_color_ratio = 0.55
+shader_parameter/sun_dir = Vector3(0.5, 0.8, 0.3)
+shader_parameter/shimmer_color = Color(1, 0.969, 0.82, 1)
+shader_parameter/shimmer_str = 0.5
+shader_parameter/shininess = 80.0
+shader_parameter/opacity = 0.6
+shader_parameter/water_tint = Color(0.08, 0.18, 0.28, 0.25)
+shader_parameter/alpha_min = 0.61999998614176
+shader_parameter/alpha_max = 0.999999977648

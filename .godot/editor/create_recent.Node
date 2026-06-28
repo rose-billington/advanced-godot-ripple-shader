@@ -1,0 +1,10 @@
+Control
+Node3D
+CSGBox3D
+MeshInstance3D
+Camera3D
+GPUParticles3D
+CollisionShape3D
+RigidBody3D
+DirectionalLight3D
+WorldEnvironment

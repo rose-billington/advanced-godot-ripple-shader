@@ -1,0 +1,34 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1782672236
+godot_dynamic_ripples_icon_optimized.png::CompressedTexture2D::896046621379295652::1782646040::1782646040::1::::<><><>0<>0<>82d53a268e584dc0b71150f10a4a3366<>res://.godot/imported/godot_dynamic_ripples_icon_optimized.png-3f2be51a0ceb19bf505ac343d1954098.ctex::
+height.jpg::CompressedTexture2D::5349761658428218132::1782671992::1782672009::1::::<><><>0<>0<>68d78072d27daf49299008826d00021a<>res://.godot/imported/height.jpg-b0e6aec72f4ce8cfd1b5ad416c948be2.s3tc.ctex::
+normal.jpeg::CompressedTexture2D::3150268729459026815::1782671767::1782671802::1::::<><><>0<>0<>6bccaec4b76d391de4b93856ce30e829<>res://.godot/imported/normal.jpeg-62c093669ad1c7c2385a58a2138a7326.s3tc.ctex::
+tile.tres::StandardMaterial3D::8920292486897637202::1782646040::0::1::::<><><>0<>0<><>::uid://c2ydh54bp2t6k::::res://tile_albedo.png<>uid://d2bf4hg6uvcw3::::res://tile_orm.png<>uid://diqlrwk0rdmld::::res://tile_normal.png
+tile_albedo.png::CompressedTexture2D::6717681483812541852::1782646041::1782646041::1::::<><><>0<>0<>1d4e0ee64c028e1ad698da15f5c1f35d<>res://.godot/imported/tile_albedo.png-1af6d1ebd8420f25735ec1ca5c57f2a9.s3tc.ctex::
+tile_depth.png::CompressedTexture2D::32578438007502879::1782646041::1782646041::1::::<><><>0<>0<>58891b515b170ec044c5a432d87aef7d<>res://.godot/imported/tile_depth.png-63e876ec7bad0104348530634513c49a.s3tc.ctex::
+tile_normal.png::CompressedTexture2D::7754502261785815793::1782646041::1782646041::1::::<><><>0<>0<>b47bd21f9c658c667fdce1bf54c78f68<>res://.godot/imported/tile_normal.png-578de70c88055bb926014effde03ec9d.s3tc.ctex::
+tile_orm.png::CompressedTexture2D::9056780958415642456::1782646041::1782646041::1::::<><><>0<>0<>23974799a21c245d8b0b54d3144dfe48<>res://.godot/imported/tile_orm.png-fb94f59aad30cee776e444d7155aaae0.s3tc.ctex::
+water 0340.jpg::CompressedTexture2D::1710233091110167626::1782672197::1782672250::1::::<><><>0<>0<>1fd0d137553158d7864129f32d83b34e<>res://.godot/imported/water 0340.jpg-8ffbf9d03c4f8475c08404f3a78b6a67.s3tc.ctex::
+water 0340normal.jpg::CompressedTexture2D::6119199258679935024::1782672236::1782672240::1::::<><><>0<>0<>4ce2412dec8c280d5fe9dec561cdd745<>res://.godot/imported/water 0340normal.jpg-4e546e8a3544109e45d762e65b91a5a3.s3tc.ctex::
+water normal 2.jpg::CompressedTexture2D::6276928392855540581::1782672033::1782672119::1::::<><><>0<>0<>b0540ef647c4bf37b7b1b096f899ed1b<>res://.godot/imported/water normal 2.jpg-4dc5a580c8424df976d62032f22d74ec.s3tc.ctex::
+water shader.tres::ShaderMaterial::8520717586920695236::1782671961::0::1::::<><><>0<>0<><>::uid://dppmh6xfbum7::::res://Shaders/water shader 2.gdshader<>uid://bk5ap3mouyktr::::res://normal.jpeg
+::res://Scenes/::1782671900
+bubbler.tscn::PackedScene::111539486248791496::1782662569::0::1::::<><><>0<>0<><>::uid://ruy8rpnrrgua::::res://Scripts/bubbler.gd
+ocean.tscn::PackedScene::4270849408421470695::1782671900::0::1::::<><><>0<>0<><>::uid://u8mudlwqfne7::::res://Scripts/player.gd<>uid://dtnq8dw3dxtia::::res://water shader.tres<>uid://bmv75lhimsf7::::res://Scripts/ocean.gd<>uid://d0db6ctnjv00e::::res://tile.tres<>uid://l34henpf0b2t::::res://Scripts/fps_counter.gd
+splash.tscn::PackedScene::5268177189595346532::1782663973::0::1::::<><><>0<>0<><>::uid://futfc5kso2g6::::res://Shaders/splash.gdshader<>uid://b7qnpas4fost2::::res://Shaders/SPLASH2.gdshader<>uid://cr45xxr31vjpp::::res://Scripts/splash.gd
+::res://Scripts/::1782669401
+bubbler.gd::GDScript::1236014952636075448::1782662554::0::1::::<>Node3D<><>0<>0<><>::
+camera_3d.gd::GDScript::2814217168341892483::1782646040::0::1::::<>Camera3D<><>0<>0<><>::
+fps_counter.gd::GDScript::831653381344647397::1782646040::0::1::::<>Label<><>0<>0<><>::
+ocean.gd::GDScript::96295171962386322::1782669401::0::1::::<>MeshInstance3D<><>0<>0<><>::
+player.gd::GDScript::1472665834019987204::1782668155::0::1::::<>RigidBody3D<><>0<>0<><>::
+splash.gd::GDScript::6027782482749793977::1782663985::0::1::::<>Node3D<><>0<>0<><>::
+stone_subdivide.gd::GDScript::4679866580422749907::1782646040::0::1::::<>MeshInstance3D<><>0<>0<><>::
+::res://Shaders/::1782671942
+bubble.gdshader::Shader::1440179127227818672::1782646040::0::1::::<><><>0<>0<><>::
+sky.gdshader::Shader::8594666263014013261::1782646040::0::1::::<><><>0<>0<><>::
+SPLASH2.gdshader::Shader::4666309861120991433::1782662864::0::1::::<><><>0<>0<><>::
+splash.gdshader::Shader::393394476973267495::1782662864::0::1::::<><><>0<>0<><>::
+splash_crown.gdshader::Shader::2044361364453586247::1782646040::0::1::::<><><>0<>0<><>::
+underwater.gdshader::Shader::7974007452497298101::1782646041::0::1::::<><><>0<>0<><>::
+water shader 2.gdshader::Shader::242464798247496704::1782671942::0::1::::<><><>0<>0<><>::

@@ -1,0 +1,9 @@
+res://Scenes/ocean.tscn
+res://Shaders/water shader 2.gdshader
+res://water shader.tres
+res://Shaders/splash.gdshader
+res://Shaders/SPLASH2.gdshader
+res://Scenes/splash.tscn
+res://Scripts/player.gd
+res://Scripts/ocean.gd
+res://Scripts/splash.gd
